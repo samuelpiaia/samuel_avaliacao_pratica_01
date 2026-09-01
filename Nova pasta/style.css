@@ -1,0 +1,185 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Slab", serif;
+}
+
+/* fundos */
+
+.back-primario {
+    background-color: #141414;
+}
+
+.back-sub{
+    border: 3px solid #a2a2a2;
+    width: 150%;
+    height: 55%;
+    position: fixed;
+    margin-left: -0.6708333194255829%;/*sim eu fiquei indo digito por digito */
+}
+.size{
+    width: 100%;
+}
+.scroll{
+    display: flex;
+}
+/* botoes */
+
+.button1{
+    width: 75%;
+    height: 8%;
+    background-color:#9B51E0;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10%;
+    left: 13%;
+    font-size: 115%;
+    border: 2px solid #d8b4fe;
+    border-radius: 15px;
+    box-shadow: 0 0 50px 25px rgba(168, 85, 247, 0.4);
+}   
+
+.button-login{
+    width: 75%;
+    height: 8%;
+    background-color: #141414;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10%;
+    left: 13%;
+    font-size: 115%;
+    border: 2px solid #d8b4fe;
+    border-radius: 15px;
+    box-shadow: 0 0 50px 25px rgba(168, 85, 247, 0.4);
+}   
+
+.button-conta{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 17px;
+    width: 35%;
+    padding: 5%;
+    align-items: center;
+}
+.button-tag{
+    background-color:#9B51E0;
+    border: 2px solid #d8b4fe;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 100%;
+    font-weight: bold;
+    margin-left: 5%;
+    width: 140px;
+    height: 40px;
+}
+.button-tag2{
+    background-color:#4dcd38;
+    border: 2px solid #4dcd38;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 100%;
+    font-weight: bold;
+    margin-left: 5%;
+    width: 140px;
+    height: 40px;
+}
+
+/* inputs */
+
+.input-primary{
+    background-color: #bfbfbf;
+    border-radius: 15px;
+    padding: 4%;
+    width: 80%;
+    font-size: 100%;
+    color: #a2a2a2;
+}
+    
+/* textos */
+
+.txt-primari{
+    color: #FFFFFF;
+    font-size: 180%;
+    width: 90%;
+    font-weight: bold;
+}
+.txt-sub{
+    width: 80%;
+    color:#C4C4C4;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.txt-siple{
+    color: #FFFFFF;
+    font-size: 100%;
+    width: 90%;
+    font-weight: bold;
+}
+.txt-sub2{
+    width: 80%;
+    color:#C4C4C4;
+    font-size: 100%;
+    font-weight: bold;
+}
+.txt-name{
+    color: #551a8b;
+    font-size: 100%;
+    font-weight: bold;
+}
+/* images */
+
+.image{
+    width: 100%;
+}
+.perfil-img{
+    width: 20%;
+    position: fixed;
+    padding-left: 75%;
+    margin-top: -4%;
+}
+.img-music{
+    width: 33%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+.img-artist{
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.img-catalogo{
+    width: 55%;
+    border: none;
+    border-radius:20px ;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.image-google{
+    background-image: url('logo_google.png');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-apple{
+    background-image: url('image-removebg-preview.png');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* classes de padroes de margens */
+
+.borda-left{
+    padding-left: 5%;
+}
+
+.borda-top{
+    padding-top: 50px;
+}
